@@ -1,5 +1,4 @@
-## A super simple tutorial on using basic Git commands
-=========================================
+## A simple tutorial on using basic Git commands
 
 Git is a version control technology that you can use to maintain shared or frequently updated files. You can use it through a GUI like GitHub or through
 your command line, which is the preferred method due to efficiency.
@@ -50,7 +49,7 @@ Whenever you want to know the status of your repo to be updates on changes, use:
 
 ### Push files to your local repository
 
-Before you push a file to a repo, you get it ready by sstaging it. To get a file in the staging area to put into your local repository, use:
+Before you push a file to a repo, you get it ready by staging it. To get a file in the staging area to put into your local repository, use:
 `$ git add [filename]`
 
 Git commits are little updates to inform you and your team members what has changed:
