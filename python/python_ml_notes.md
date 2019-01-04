@@ -1,18 +1,11 @@
 ## Python for Data Science
 
-Navigate to the relevant directory `hands-on-ml` and install required packages in a new conda environment:
+Types:
+Expressions and Variables:
+String Operations:
 
-```
-conda env create -f environment.yml
-```
 
-This will create a new environment called hands_on_ml. To activate the environment on OSX/Linux, execute
-
-```
-source activate hands_on_ml
-```
-On Windows, execute
-
-```
-activate hands_on_ml
-```
+To code in Python you can run chunks of code in a Jupyter notebook. Each cell can be run by clicking the run cell button.
+You can comment your code by adding a # before your comment.  
+Print statements:
+Simply type print("Hello") to display Hello. Remember that print statements are always useful when debugging.
