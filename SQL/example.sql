@@ -31,3 +31,13 @@ SELECT
 COUNT(DISTINCT employee_dept)
 FROM
 filt_emp
+
+
+/* when using SQL with Hive don't forget databases have built in functions */
+
+select
+lpad(cast(cast(account as BIGINT) % 5000 as STRING), 9 '0')  
+from 
+customers 
+group by account, inter_date
+limit 100
